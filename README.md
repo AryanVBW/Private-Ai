@@ -21,10 +21,10 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 
 ---
 
-**PrivateGPT Installation Guide**
+**Private-Ai Installation Guide**
 
 ### Base Requirements:
-- Git clone PrivateGPT repository:
+- Git clone Private-Ai repository:
   ```bash
   git clone https://github.com/AryanVBW/Private-Ai
   cd Private-Ai
@@ -62,8 +62,9 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 ### Verification:
 - Run `make run` or `poetry run python -m private_gpt`.
 - Open http://localhost:8001 to see Gradio UI with a mock LLM echoing input.
+# 👍👍👍All Done 👍👍👍
 
-
+# For GPU utilization and customization, follow the steps below:
 
 ### Customization:
 - Customize low-level parameters in `private_gpt/components/llm/llm_component.py`.
