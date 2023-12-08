@@ -30,7 +30,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
   cd Private-Ai
   ```
 - Install Python 3.11 (or 3.12)
-- uding apt(linux)
+- using apt(linux)
   ```bash
   ```
 - using pyenv:
@@ -62,10 +62,10 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 ### Verification:
 - Run `make run` or `poetry run python -m private_gpt`.
 - Open http://localhost:8001 to see Gradio UI with a mock LLM echoing input.
-# 👍👍👍All Done 👍👍👍
+# 👍👍All Done 👍👍
 
-# For GPU utilization and customization, follow the steps below:
-
+## For GPU utilization and customization, follow the steps below:
+  - For PrivateGPT to run fully locally GPU acceleration is required (CPU execution is possible, but very slow)
 ### Customization:
 - Customize low-level parameters in `private_gpt/components/llm/llm_component.py`.
 - Configure LLM options in `settings.yaml`.
