@@ -39,7 +39,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
   pyenv local 3.11
   ```
 
-- Install Poetry for dependency management.
+- Install [Poetry](https://python-poetry.org/docs/#installing-with-pipx) for dependency management.
 ```bash
   pip3 install poetry
   ```
