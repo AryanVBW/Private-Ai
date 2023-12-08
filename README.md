@@ -30,11 +30,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 
 Contributions are welcome! Check the ProjectBoard for ideas. Ensure code quality with format and typing checks (run `make check`).
 
-## 📖 Citation:
-
-If you use PrivateGPT in your work, check the Citation file for proper citation formats.
-
-## 🤗 Partners & Supporters:
+## 🤗Supporters:
 
 Supported by Qdrant, Fern, and LlamaIndex. Influenced by projects like LangChain, GPT4All, LlamaCpp, Chroma, and SentenceTransformers.
 
@@ -43,5 +39,8 @@ Supported by Qdrant, Fern, and LlamaIndex. Influenced by projects like LangChain
 🔗 [Explore Private-AI on GitHub](https://github.com/imartinez/privateGPT)
 
 📝 **License:** Apache-2.0
+# Copyright Notice
+This is a modified version of PrivateGPT (https://github.com/imartinez/privateGPT). All rights and licenses belong to the PrivateGPT team.
 
-✨ **Developed by:** Iván Martínez Toro, Daniel Gallego Vico, Pablo Orgaz (2023)
+© [2023] PrivateGPT Developers. All rights reserved.
+
