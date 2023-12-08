@@ -1,6 +1,6 @@
-# Private-AI: Your Gateway to Private Generative AI
 
-🚀 **Welcome to Private-AI!**
+
+# 🚀 Welcome to Private-AI!
 
 Private-AI is an innovative AI project designed for asking questions about your documents using powerful Large Language Models (LLMs). The unique feature? It works offline, ensuring 100% privacy with no data leaving your environment.
 
