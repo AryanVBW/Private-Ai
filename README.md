@@ -1,4 +1,25 @@
 
+<script>
+  function isDarkMode() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function setBgImage() {
+    var imageElement = document.getElementById('bgImage');
+    if (isDarkMode()) {
+      imageElement.src = 'https://github.com/AryanVBW/Private-Ai/releases/download/I1/Bgdark.png';
+    } else {
+      imageElement.src = 'https://github.com/AryanVBW/Private-Ai/releases/download/I1/Bglight.png';
+    }
+  }
+  window.onload = setBgImage;
+</script>
+
+<p align="center">
+  <a href="https://github.com/AryanVBw">
+    <img id="bgImage" src="https://github.com/AryanVB/Private-Ai/releases/download/I1/Bg.png" alt="Darkside">
+  </a>
+</p>
 <p align="center">
    <a href="https://github.com/AryanVBw">
 <img src="https://github.com/AryanVBW/Private-Ai/releases/download/I1/Bg.png" alt="Darkside"></a></p>
