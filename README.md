@@ -33,6 +33,8 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 - Using apt(Debian base linux like-kali,Ubantu etc. )
   ```bash
   sudo apt-get install python3.11
+  apt install python3.11-venv
+  
   ```
 - Using pyenv:
   ```bash
