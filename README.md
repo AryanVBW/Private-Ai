@@ -34,13 +34,10 @@ Contributions are welcome! Check the ProjectBoard for ideas. Ensure code quality
 
 Supported by Qdrant, Fern, and LlamaIndex. Influenced by projects like LangChain, GPT4All, LlamaCpp, Chroma, and SentenceTransformers.
 
-👏 Thank you for contributing to the future of private and powerful AI with Private-AI! 
-
-🔗 [Explore Private-AI on GitHub](https://github.com/imartinez/privateGPT)
-
+👏 Thank you for contributing to the future of private and powerful AI with Private-AI!
 📝 **License:** Apache-2.0
 # Copyright Notice
-This is a modified version of PrivateGPT (https://github.com/imartinez/privateGPT). All rights and licenses belong to the PrivateGPT team.
+This is a modified version of [PrivateGPT](https://github.com/imartinez/privateGPT). All rights and licenses belong to the PrivateGPT team.
 
-© [2023] PrivateGPT Developers. All rights reserved.
+© 2023 PrivateGPT Developers. All rights reserved.
 
