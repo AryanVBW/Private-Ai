@@ -30,10 +30,11 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
   cd Private-Ai
   ```
 - Install Python 3.11 (or 3.12)
-- using apt(linux)
+- Using apt(Debian base linux like-kali,Ubantu etc. )
   ```bash
+  sudo apt-get install python3.11
   ```
-- using pyenv:
+- Using pyenv:
   ```bash
   pyenv install 3.11
   pyenv local 3.11
