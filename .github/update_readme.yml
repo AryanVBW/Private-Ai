@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Schedule to run every hour
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set color scheme
+      run: echo "GITHUB_COLOR_SCHEME=dark" >> $GITHUB_ENV
+
+    - name: Run script
+      run: python update_readme.py
+
+    - name: Commit changes
+      run: |
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update README with logo based on color scheme"
+        git push
