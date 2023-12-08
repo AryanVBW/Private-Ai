@@ -65,7 +65,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 # 👍👍All Done 👍👍
 
 ## For GPU utilization and customization, follow the steps below:
-  - For PrivateGPT to run fully locally GPU acceleration is required (CPU execution is possible, but very slow)
+  - For Private-Ai to run fully locally GPU acceleration is required (CPU execution is possible, but very slow)
 ### Customization:
 - Customize low-level parameters in `private_gpt/components/llm/llm_component.py`.
 - Configure LLM options in `settings.yaml`.
