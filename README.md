@@ -4,6 +4,7 @@
 <img src="https://github.com/AryanVBW/Private-Ai/releases/download/I1/Bg.png" alt="Darkside"></a></p>
 
 </p>
+
 # 🚀 Welcome to Private-AI!
 
 Private-AI is an innovative AI project designed for asking questions about your documents using powerful Large Language Models (LLMs). The unique feature? It works offline, ensuring 100% privacy with no data leaving your environment.
