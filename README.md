@@ -98,7 +98,7 @@ cd Private-Ai
   CMAKE_ARGS="-DLLAMA_METAL=on" pip install --force-reinstall --no-cache-dir llama-cpp-python
   ```
 
-- **Windows NVIDIA GPU**: Install VS2022, CUDA toolkit, and run:
+- **Windows NVIDIA GPU**: Install [VS2022](https://visualstudio.microsoft.com/vs/community/), [CUDA toolkit](https://developer.nvidia.com/cuda-downloads), and run:
   ```powershell
   $env:CMAKE_ARGS='-DLLAMA_CUBLAS=on'; poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
   ```
