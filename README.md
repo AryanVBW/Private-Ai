@@ -21,12 +21,6 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 
 **Private-Ai Installation Guide**
 
-### Base Requirements:
-- Git clone Private-Ai repository:
-  ```bash
-  git clone https://github.com/AryanVBW/Private-Ai
-  cd Private-Ai
-  ```
 - Install Python 3.11 (or 3.12)
 - Using apt(Debian base linux like-kali,Ubantu etc. )
   ```bash
@@ -45,6 +39,16 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
    sudo apt install python3-poetry
   sudo apt install python3-pytest
   ```
+### Base Requirements:
+- Git clone Private-Ai repository:
+```bash
+  git clone https://github.com/AryanVBW/Private-Ai
+  cd Private-Ai && \
+python3.11 -m venv .venv && source .venv/bin/activate && \
+pip install --upgrade pip poetry && poetry install --with ui,local && ./scripts/setup &
+ python3.11 -m private_gpt
+
+```
 ### Dependencies Installation:
 - Install make (OSX: `brew install make`, Windows: `choco install make`).
 - Install dependencies:
