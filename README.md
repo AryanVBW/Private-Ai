@@ -60,8 +60,12 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
   ```bash
   poetry run python scripts/setup
   ```
-  
-### Verification:
+### Finalize:
+- Installation of private Ai:
+  ```bash
+  make
+  ```  
+### Verification and run :
 - Run `make run` or `poetry run python -m private_gpt`.
 - Open http://localhost:8001 to see Gradio UI with a mock LLM echoing input.
 # 👍👍All Done 👍👍
