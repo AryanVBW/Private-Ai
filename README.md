@@ -103,7 +103,7 @@ cd Private-Ai
   $env:CMAKE_ARGS='-DLLAMA_CUBLAS=on'; poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
   ```
 
-- **Linux NVIDIA GPU and Windows-WSL**: Install CUDA toolkit and run:
+- **Linux NVIDIA GPU and Windows-WSL**: Install [CUDA toolkit](https://developer.nvidia.com/cuda-downloads) and run:
   ```bash
   CMAKE_ARGS='-DLLAMA_CUBLAS=on' poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
   ```
