@@ -42,7 +42,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 
 - Install [Poetry](https://python-poetry.org/docs/#installing-with-pipx) for dependency management.
 ```bash
-  pip3 install poetry
+   sudo apt install python3-poetry
   sudo apt install python3-pytest
   ```
 ### Dependencies Installation:
