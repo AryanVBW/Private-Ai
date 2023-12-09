@@ -39,7 +39,7 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
    sudo apt install python3-poetry
   sudo apt install python3-pytest
   ```
-### Base Requirements:
+### Installation Whithout GPU:
 - Git clone Private-Ai repository:
 ```bash
 git clone https://github.com/AryanVBW/Private-Ai
@@ -48,6 +48,21 @@ python3.11 -m venv .venv && source .venv/bin/activate && \
 pip install --upgrade pip poetry && poetry install --with ui,local && ./scripts/setup 
 python3.11 -m private_gpt
 
+```
+### Run of private Ai:
+ - forRunAgain jutsGoTo Private Ai   directoy anr run following comand:
+  ```bash
+  make run
+  ```
+# 👍👍All Done 👍👍
+
+## For GPU utilization and customization, follow the steps below:
+  - For Private-Ai to run fully locally GPU acceleration is required (CPU execution is possible, but very slow)
+### clone repo
+- Git clone Private-Ai repository:
+```bash
+git clone https://github.com/AryanVBW/Private-Ai
+cd Private-Ai
 ```
 ### Dependencies Installation:
 - Install make (OSX: `brew install make`, Windows: `choco install make`).
@@ -67,15 +82,12 @@ python3.11 -m private_gpt
 ### Finalize:
 - Installation of private Ai:
   ```bash
-  make
+  make 
   ```  
 ### Verification and run :
 - Run `make run` or `poetry run python -m private_gpt`.
 - Open http://localhost:8001 to see Gradio UI with a mock LLM echoing input.
-# 👍👍All Done 👍👍
 
-## For GPU utilization and customization, follow the steps below:
-  - For Private-Ai to run fully locally GPU acceleration is required (CPU execution is possible, but very slow)
 ### Customization:
 - Customize low-level parameters in `private_gpt/components/llm/llm_component.py`.
 - Configure LLM options in `settings.yaml`.
