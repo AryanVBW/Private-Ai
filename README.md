@@ -42,11 +42,11 @@ Privacy is the key motivator! Private-AI addresses concerns in data-sensitive do
 ### Base Requirements:
 - Git clone Private-Ai repository:
 ```bash
-  git clone https://github.com/AryanVBW/Private-Ai
-  cd Private-Ai && \
+git clone https://github.com/AryanVBW/Private-Ai
+cd Private-Ai && \
 python3.11 -m venv .venv && source .venv/bin/activate && \
-pip install --upgrade pip poetry && poetry install --with ui,local && ./scripts/setup &
- python3.11 -m private_gpt
+pip install --upgrade pip poetry && poetry install --with ui,local && ./scripts/setup 
+python3.11 -m private_gpt
 
 ```
 ### Dependencies Installation:
