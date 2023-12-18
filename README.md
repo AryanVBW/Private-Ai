@@ -47,13 +47,14 @@ cd Private-Ai && \
 python3.11 -m venv .venv && source .venv/bin/activate && \
 pip install --upgrade pip poetry && poetry install --with ui,local && ./scripts/setup 
 python3.11 -m private_gpt
-
 ```
+
 ### Run of private Ai:
  - forRunAgain jutsGoTo Private Ai   directoy anr run following comand:
-  ```bash
+ - 
+```bash
   make run
-  ```
+```
 # 👍👍All Done 👍👍
 
 ## For GPU utilization and customization, follow the steps below:
