@@ -51,7 +51,7 @@ python3.11 -m private_gpt
 
 ### Run of private Ai:
  - forRunAgain jutsGoTo Private Ai   directoy anr run following comand:
- - 
+
 ```bash
   make run
 ```
