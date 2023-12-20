@@ -41,7 +41,7 @@ numpy = "1.26.0"
 sentence-transformers = "^2.2.2"
 # https://stackoverflow.com/questions/76327419/valueerror-libcublas-so-0-9-not-found-in-the-system-path
 torch = ">=2.0.0, !=2.0.1, !=2.1.0"
-transformers = "^4.34.0"
+transformers = "^4.36.0"
 
 [tool.poetry.extras]
 chroma = ["chromadb"]
